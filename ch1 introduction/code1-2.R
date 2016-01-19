@@ -1,4 +1,4 @@
-setwd("/Users/noprom/Documents/Dev/R/Pro/R in Action")
+setwd("/Users/noprom/Documents/Dev/R/Pro/R in Action/ch1 introduction")
 options()
 options(digits = 3)
 # 创建一个包含20个均匀分布随机变量的向量
