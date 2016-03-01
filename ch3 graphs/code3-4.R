@@ -5,3 +5,9 @@ plot(dose, drugA, type="b",
      sub="This is hypothetical data",
      xlab="Dosage", ylab="Drug Response",
      xlim=c(0, 60), ylim=c(0, 70))
+
+# 3.4.1 Titles
+title(main="My Title", col.main="red",
+      sub="My Subtitle", col.sub="blue",
+      xlab="My X label", ylab="My Y label",
+      col.lab="green", cex.lab=0.75)
