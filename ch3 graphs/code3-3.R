@@ -37,6 +37,8 @@ par(pin=c(4,3), mai=c(1,.5, 1, .2))
 dose  <- c(20, 30, 40, 45, 60)
 drugA <- c(16, 20, 27, 40, 60)
 drugB <- c(15, 18, 25, 31, 40)
+# save the current graphical parame- ter settings 
+# (so that you can restore them later)
 opar <- par(no.readonly=TRUE)
 par(pin=c(2, 3))
 par(lwd=2, cex=1.5)
