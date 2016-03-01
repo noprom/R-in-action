@@ -40,3 +40,7 @@ title("An Example of Creative Axes",
       xlab="X values",
       ylab="Y=X")
 par(opar)
+
+# 3.4.3 Reference lines
+plot.new()
+abline(v=seq(1, 10, 2), lty=2, col="blue")
