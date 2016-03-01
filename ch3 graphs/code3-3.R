@@ -7,10 +7,10 @@ par(opar)
 # 也可以将参数的值直接放到括号中
 plot(dose, drugA, type="b", lty=2, pch=17)
 
-# Symbols and lines
+# 3.3.1 Symbols and lines
 plot(dose, drugA, type="b", lty=3, lwd=3, pch=15, cex=2)
 
-# Colors
+# 3.3.2 Colors
 install.packages("RColorBrewer")
 
 library(RColorBrewer)
@@ -26,3 +26,5 @@ mycolors <- rainbow(n)
 pie(rep(1, n), labels=mycolors, col=mycolors)
 mygrays <- gray(0:n/n)
 pie(rep(1, n), labels=mygrays, col=mygrays)
+
+# 3.3.3 Text characteristics
